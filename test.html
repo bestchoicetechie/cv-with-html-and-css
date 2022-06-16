@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .flex-container > div{
+            margin: 10px;
+            width: 150px;
+            background: purple;
+            text-align: center;
+            height: 50px;
+            align-items: center;
+            padding: 20px 10px;
+
+        }
+        .shrink{
+            flex: 2 1 400px;
+            height: 4000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="shrink">64</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div class="shrink">8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div class="shrink">8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div class="shrink">8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div class="shrink">8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div class="shrink">8</div>
+        <div>9</div>
+        <div>0</div>
+    </div>
+</body>
+</html>
